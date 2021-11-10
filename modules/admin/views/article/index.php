@@ -18,9 +18,6 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= Html::a('Создать статью', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
-    <?php // echo $this->render('_search', ['model' => $searchModel]); 
-    ?>
-
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,

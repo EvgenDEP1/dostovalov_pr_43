@@ -21,20 +21,19 @@ class ImageUpload extends Model
 
     public function uploadFile(UploadedFile $file, $currentImage)
     {
+
         $this->image = $file;
 
         if ($this->validate()) {
 
             $this->deleteCurrentImage($currentImage);
-
             return $this->saveImage();
         }
     }
 
     private function getFolder()
     {
-//        return Yii::getAlias('@web') . 'uploads/';
-        return 'uploads/';
+        return Yii::getAlias('@web') . 'uploads/';
     }
 
     private function generateFilename()

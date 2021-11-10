@@ -169,7 +169,7 @@ PublicAsset::register($this);
                             </div>
                             <div>
                                 <a href="#" class="text-uppercase">Дом - это спокойное Место</a>
-                                <span class="p-date">Ноябрь 9, 2021</span>
+                                <span class="p-date">Ноябрь 6, 2021</span>
                             </div>
                         </div>
                     </aside>
