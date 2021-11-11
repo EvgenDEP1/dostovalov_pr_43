@@ -42,7 +42,7 @@ PublicAsset::register($this);
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?= Url::toRoute(['/']) ?>"><img src="/public/images/logo.png" alt=""></a>
+                    <a class="navbar-brand" href="<?= Url::toRoute(['/']) ?>"><img src="/public/images/logo69.png" alt=""></a>
                 </div>
 
 
@@ -86,7 +86,7 @@ PublicAsset::register($this);
             <div class="row">
                 <div class="col-md-4">
                     <aside class="footer-widget">
-                        <div class="about-img"><img src="/public/images/logo-removebg.png" alt=""></div>
+                        <div class="about-img"><img src="/public/images/logo69.png" alt=""></div>
                         <div class="about-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
                             nonumy
                             eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed voluptua. At vero eos et
